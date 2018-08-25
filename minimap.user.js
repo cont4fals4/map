@@ -6,7 +6,7 @@
 // @author       yOriowm#1046
 // @match        https://pixelcanvas.io/*
 // @match        http://pixelcanvas.io/*
-// @homepage     https://github.com/yOriowm/SpaceCanas-Minimap
+// @homepage     https://github.com/yOriowm/SpaceCanvas-Minimap
 // @updateURL    https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/minimap.user.js
 // @downloadURL  https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/minimap.user.js
 // @grant        none
@@ -289,7 +289,7 @@ function loadTemplates() {
         if (zooming_in == false && zooming_out == false) {
             document.getElementById("minimap-box").style.display = "none";
             document.getElementById("minimap-text").style.display = "block";
-            document.getElementById("minimap-text").innerHTML = "N„o h· templates nesse local";
+            document.getElementById("minimap-text").innerHTML = "N√£o h√° templates nesse local";
         }
     } else {
         document.getElementById("minimap-box").style.display = "block";
