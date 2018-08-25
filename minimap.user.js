@@ -7,17 +7,17 @@
 // @match        https://pixelcanvas.io/*
 // @match        http://pixelcanvas.io/*
 // @homepage     https://github.com/yOriowm/OrionMinimap
-// @updateURL    https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/minimap.user.js
+// @updateURL    https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/blob/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/blob/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
 //ref:https://stackoverflow.com/questions/4604663/download-single-files-from-github
 //github raw file url  template
 //https://raw.githubusercontent.com/user/repository/branch/filename
-//https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/README.md
+//https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/blob/master/README.md
 
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/yOriowm/blob/SpaceCanvas-Minimap/master';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
@@ -289,7 +289,7 @@ function loadTemplates() {
         if (zooming_in == false && zooming_out == false) {
             document.getElementById("minimap-box").style.display = "none";
             document.getElementById("minimap-text").style.display = "block";
-            document.getElementById("minimap-text").innerHTML = "N„o h· templates nesse local";
+            document.getElementById("minimap-text").innerHTML = "N√£o h√° templates nesse local";
         }
     } else {
         document.getElementById("minimap-box").style.display = "block";
