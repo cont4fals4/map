@@ -289,7 +289,7 @@ function loadTemplates() {
         if (zooming_in == false && zooming_out == false) {
             document.getElementById("minimap-box").style.display = "none";
             document.getElementById("minimap-text").style.display = "block";
-            document.getElementById("minimap-text").innerHTML = "N„o h· templates nesse local";
+            document.getElementById("minimap-text").innerHTML = "N√£o h√° templates nesse local";
         }
     } else {
         document.getElementById("minimap-box").style.display = "block";
