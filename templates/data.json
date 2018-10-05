@@ -26,5 +26,12 @@
     "y": -4154,
     "width": 1100,
     "height": 1100
+     },
+  "hbe_imperial": {
+    "name": "hbe_imperial.png",
+    "x": 1516,
+    "y": -1324,
+    "width": 1196,
+    "height": 715
    }
 }
