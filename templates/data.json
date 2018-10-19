@@ -33,5 +33,12 @@
     "y": -1324,
     "width": 1196,
     "height": 715
+       },
+  "Robot_planet": {
+    "name": "Robot_planet.png",
+    "x": -6692,
+    "y": -3609,
+    "width": 80,
+    "height": 80
    }
 }
