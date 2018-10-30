@@ -40,5 +40,12 @@
     "y": -3609,
     "width": 80,
     "height": 80
+         },
+  "autumn": {
+    "name": "autumn.png",
+    "x": -6112,
+    "y": -3819,
+    "width": 1742,
+    "height": 648
    }
 }
