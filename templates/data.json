@@ -8,9 +8,9 @@
    },
   "Base-centro": {
     "name": "Base-centro.png",
-    "x": 575,
+    "x": 484,
     "y": -174,
-    "width": 387,
+    "width": 478,
     "height": 324
    },
   "SpaceCanvasGridCell": {
