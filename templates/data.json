@@ -47,5 +47,12 @@
     "y": -3819,
     "width": 1742,
     "height": 648
+           },
+  "brdc": {
+    "name": "brdc.png",
+    "x": 3005,
+    "y": -527,
+    "width": 356,
+    "height": 78
    }
 }
