@@ -68,5 +68,19 @@
     "y": 101,
     "width": 180,
     "height": 171
+           },
+  "senna": {
+    "name": "senna.png",
+    "x": 576,
+    "y": -195,
+    "width": 200,
+    "height": 200
+           },
+  "minibr": {
+    "name": "minibr.png",
+    "x": -43,
+    "y": -679,
+    "width": 100,
+    "height": 61
    }
 }
