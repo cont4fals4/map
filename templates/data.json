@@ -139,6 +139,13 @@
     "width": 65,
     "height": 39
                  },
+  "FireS": {
+    "name": "FireS.png",
+    "x": 64,
+    "y": -773,
+    "width": 138,
+    "height": 42
+                   },
   "0": {
     "name": "0.png",
     "x": 0,
