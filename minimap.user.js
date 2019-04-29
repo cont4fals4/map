@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         SpaceCanvas Minimap
-// @namespace    SpaceCanvas Minimap
+// @name         PC map
+// @namespace    PC map
 // @version      0.1.0
-// @description  Minimap Oficial SpaceCanvas
-// @author       yOriowm#1046
+// @description  Minimap 
+// @author       HF
 // @match        https://pixelcanvas.io/*
 // @match        http://pixelcanvas.io/*
 // @homepage     https://github.com/yOriowm/SpaceCanvas-Minimap
-// @updateURL    https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/minimap.user.js
+// @updateURL    https://raw.githubusercontent.com/Vasco-Pixel/map/master/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/Vasco-Pixel/map/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -17,7 +17,7 @@
 //https://raw.githubusercontent.com/user/repository/branch/filename
 //https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/README.md
 
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Vasco-Pixel/map/master';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
