@@ -1,21 +1,18 @@
 // ==UserScript==
-// @name         PC map
-// @namespace    PC map
+// @name         VascoPixelMap
+// @namespace    VascoPixelMap
 // @version      0.1.0
-// @description  Minimap 
-// @author       HF
+// @description  PixelCanvas Minimap of VascoPixel
+// @author       /mlp/, not HF
 // @match        https://pixelcanvas.io/*
 // @match        http://pixelcanvas.io/*
-// @homepage     https://github.com/yOriowm/SpaceCanvas-Minimap
+// @homepage     https://github.com/Vasco-Pixel/map/
 // @updateURL    https://raw.githubusercontent.com/Vasco-Pixel/map/master/minimap.user.js
 // @downloadURL  https://raw.githubusercontent.com/Vasco-Pixel/map/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
 //ref:https://stackoverflow.com/questions/4604663/download-single-files-from-github
-//github raw file url  template
-//https://raw.githubusercontent.com/user/repository/branch/filename
-//https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/README.md
 
 window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Vasco-Pixel/map/master';
 
@@ -174,12 +171,12 @@ function exportMd() {
     Object.keys(template_list).map(function (index, ele) {
         var eles = template_list[index];
         mdstr += '\n#### ' + index;
-        mdstr += '\n[![](https://raw.githubusercontent.com/yOriowm/SpaceCanvas-Minimap/master/images/' + eles.name + ')]';
+        mdstr += '\n[![](https://raw.githubusercontent.com/Vasco-Pixel/map/master/images/' + eles.name + ')]';
         mdstr += '(http://pixelcanvas.io/@' + Math.floor(eles.x + eles.width / 2) + ',' + Math.floor(eles.y + eles.height / 2) + ')'
         mdstr += '\n';
         ttlpx += eles.width * eles.height;
     });
-    mdstr = '### Toplam pixel sayisi =' + ttlpx + '\n' + mdstr;
+    mdstr = '### Total de Pixels =' + ttlpx + '\n' + mdstr;
     console.log(mdstr);
 }
 function updateloop() {
