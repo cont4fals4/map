@@ -1,5 +1,5 @@
 {
-  
+
   "templario": {
     "name": "templario.png",
     "x": 57,
@@ -7,11 +7,53 @@
     "width": 208,
     "height": 114
                      },
-  "0": {
-    "name": "0.png",
-    "x": 0,
-    "y": 0,
-    "width": 0,
-    "height": 0
-   }
+  "4centro": {
+    "name": "4centro.png",
+    "x": 417,
+    "y": -607,
+    "width": 154,
+    "height": 196
+  },
+  "copa": {
+    "name": "copa.png",
+    "x": 6643,
+    "y": -585,
+    "width": 666,
+    "height": 468
+  },
+  "crvg": {
+    "name": "crvg.png",
+    "x": 64,
+    "y": -824,
+    "width": 144,
+    "height": 89
+  },
+"escudinho": {
+  "name": "escudinho.png",
+  "x": 3439,
+  "y": -845,
+  "width": 140,
+  "height": 129
+ },
+ "faixa": {
+   "name": "faixa.png",
+   "x": 2717,
+   "y": -1300,
+   "width": 184,
+   "height": 627
+  },
+  "faixa2": {
+    "name": "faixa2.png",
+    "x": 2863,
+    "y": -700,
+    "width": 223,
+    "height": 105
+   },
+   "maincentro": {
+     "name": "maincentro.png",
+     "x": 217,
+     "y": -985,
+     "width": 292,
+     "height": 116
+    }
 }
